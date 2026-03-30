@@ -1,0 +1,5 @@
+valor_deposito = float(input("Informe a quantidade depositada:"))
+juros = float(input("Informe a taxa de juros em porcentagem:"))
+valor_rendimento = valor_deposito * (juros/100)
+valor_total = valor_deposito * (1+ juros / 100)
+print(f"O investimento rendeu R${valor_rendimento:.2f} e o valor total é R${valor_total:.2f}")

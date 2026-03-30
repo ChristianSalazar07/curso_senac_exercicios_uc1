@@ -1,0 +1,6 @@
+a = float(input("Informe o valor do a:"))
+b = float(input("Informe o valor do b:"))
+c = float(input("Informe o valor do c:"))
+x1 = (-b + (b**2 - 4 * a * c)**(1/2))/(2 * a)
+x2 = (-b - (b**2 - 4 * a * c)**(1/2))/(2 * a)
+print(f"Os valores de x são: {x1:.2f} e {x2:.2f}")
