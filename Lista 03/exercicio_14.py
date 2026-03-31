@@ -12,7 +12,7 @@ for i in range(qtd_alunos):
         gasto_alimentacao = float(input(f"Informe a quantidade gasta em alimentação pela {i+1:.0f}ª família:"))
         gasto_vestimenta = float(input(f"Informe a quantidade gasta em vestimenta pela {i+1:.0f}ª família:"))
         gasto_aluguel = float(input(f"Informe a quantidade gasta em aluguel pela {i+1:.0f}ª família:"))
-        #Processamento
+#Processamento
         if gasto_alimentacao > 300:
                 soma_renda_alimentacao_mais_300 = soma_renda_alimentacao_mais_300 + gasto_alimentacao
                 qtd_alunos_alimentacao_mais_300 = qtd_alunos_alimentacao_mais_300 + 1
