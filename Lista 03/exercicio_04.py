@@ -2,8 +2,8 @@ qtd_clientes = 10
 clientes = []
 arrecadacao = 0
 for i in range(qtd_clientes):
-    nome_cliente = input(f"Informe o nome do {i+1:.0f}° cliente:")
-    valor_compra = float(input(f"Informe o valor da compra do {i+1:.0f}° cliente:"))
+    nome_cliente = input(f"Informe o nome do {i+1}° cliente:")
+    valor_compra = float(input(f"Informe o valor da compra do {i+1}° cliente:"))
     if valor_compra >= 250:
         desconto = 0.2
         valor_final = valor_compra * (1-desconto)

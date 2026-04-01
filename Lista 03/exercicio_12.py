@@ -22,7 +22,7 @@ for i in range(qtd_entrevistados):
                 n_florianopolis_marcilio = n_florianopolis_marcilio + 1
         case "c":
             torcedores_outros = torcedores_outros + 1
-print(f"Torcedores Figueirense:{torcedores_figueirense:.0f}\n"+f"Torcedores Marcílio Dias:{torcedores_marcilio:.0f}\n"+f"Torcedores Outros:{torcedores_outros:.0f}\n"
+print(f"Torcedores Figueirense:{torcedores_figueirense}\n"+f"Torcedores Marcílio Dias:{torcedores_marcilio}\n"+f"Torcedores Outros:{torcedores_outros}\n"
       +f"A média salarial dos Torcedores do Figueirense é R${salario_figueirense:.2f}\n"
-      +f"O número de pessoas nascidas em Florianópolis e que torcem pelo Marcílio Dias é {n_florianopolis_marcilio:.0f}\n"
+      +f"O número de pessoas nascidas em Florianópolis e que torcem pelo Marcílio Dias é {n_florianopolis_marcilio}\n"
       +f"O número de pessoas nascidas em outras cidades e que torcem pelo Figueirense é {n_outros_figueirense}")

@@ -4,8 +4,8 @@ alunos_menos_1_70 = 0
 soma_altura_mais_20 = 0
 alunos_mais_20 = 0
 for i in range(qtd_alunos):
-    altura_aluno = float(input(f"Informe a altura do {i+1:.0f}° aluno:"))
-    idade_aluno = int(input(f"Informe a idade do {i+1:.0f}° aluno:"))
+    altura_aluno = float(input(f"Informe a altura do {i+1}° aluno:"))
+    idade_aluno = int(input(f"Informe a idade do {i+1}° aluno:"))
     if altura_aluno < 1.7:
         alunos_menos_1_70 = alunos_menos_1_70 + 1
         soma_idade_menos_1_70 = soma_idade_menos_1_70 + idade_aluno

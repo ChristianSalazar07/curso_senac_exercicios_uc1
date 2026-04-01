@@ -3,8 +3,8 @@ qtd_clientes = 3
 ganho_hotel = 0
 clientes = []
 for i in range(qtd_clientes):
-    nome = input(f"Informe o nome do {i+1:.0f}° cliente:")
-    diarias = int(input(f"Informe por quantas diárias o {i+1:.0f}° cliente ficará:"))
+    nome = input(f"Informe o nome do {i+1}° cliente:")
+    diarias = int(input(f"Informe por quantas diárias o {i+1}° cliente ficará:"))
     taxa_servico = 6.3
     if diarias < 15:
         taxa_servico = 8

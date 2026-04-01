@@ -3,7 +3,7 @@ numeros_negativos = []
 soma = 0
 qtd_negativos = 0
 for i in range(qtd_numeros):
-    numero_atual = int(input(f"Informe o {i+1:.0f}° número:"))
+    numero_atual = int(input(f"Informe o {i+1}° número:"))
     if numero_atual < 0:
         numeros_negativos.append(numero_atual)
         qtd_negativos = qtd_negativos + 1

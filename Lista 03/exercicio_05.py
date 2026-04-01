@@ -10,5 +10,4 @@ while numero_atual < ultimo_numero:
     numeros_pares.append(numero_atual)
     soma = soma + numero_atual
     numero_atual = numero_atual + 2
-print(f"{numeros_pares}\n"
-      +f"A soma dos números pares é {soma:.0f}")
+print(f"{numeros_pares}\n"+f"A soma dos números pares é {soma:.0f}")

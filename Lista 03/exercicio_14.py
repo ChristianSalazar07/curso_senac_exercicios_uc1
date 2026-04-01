@@ -7,11 +7,11 @@ nomes = []
 p1 = []
 p2 = []
 for i in range(qtd_alunos):
-        nome = input(f"Informe o nome do {i+1:.0f}° aluno:")
-        renda_mensal = float(input(f"Informe a renda mensal da {i+1:.0f}ª família:"))
-        gasto_alimentacao = float(input(f"Informe a quantidade gasta em alimentação pela {i+1:.0f}ª família:"))
-        gasto_vestimenta = float(input(f"Informe a quantidade gasta em vestimenta pela {i+1:.0f}ª família:"))
-        gasto_aluguel = float(input(f"Informe a quantidade gasta em aluguel pela {i+1:.0f}ª família:"))
+        nome = input(f"Informe o nome do {i+1}° aluno:")
+        renda_mensal = float(input(f"Informe a renda mensal da {i+1}ª família:"))
+        gasto_alimentacao = float(input(f"Informe a quantidade gasta em alimentação pela {i+1}ª família:"))
+        gasto_vestimenta = float(input(f"Informe a quantidade gasta em vestimenta pela {i+1}ª família:"))
+        gasto_aluguel = float(input(f"Informe a quantidade gasta em aluguel pela {i+1}ª família:"))
 #Processamento
         if gasto_alimentacao > 300:
                 soma_renda_alimentacao_mais_300 = soma_renda_alimentacao_mais_300 + gasto_alimentacao
