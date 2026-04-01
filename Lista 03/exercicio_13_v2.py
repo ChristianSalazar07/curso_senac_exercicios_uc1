@@ -1,16 +1,16 @@
-#Entrada
-qtd_alunos = 3
+qtd_alunos = 0
 alunos_aprovados = []
 soma_portugues = 0
 media_maior_4_5_cg_maior_6 = 0
 aprovados_matematica_maior_5 = 0
-for i in range(qtd_alunos):
+tem_mais_alunos = "Sim"
+while tem_mais_alunos == "Sim" or tem_mais_alunos == "sim":
+    qtd_alunos = qtd_alunos + 1
     situacao = "sla"
-    nome = input(f"Informe o nome do {i+1}° aluno:")
-    nota_portugues = float(input(f"Informe a nota de Português do {i+1}° aluno:"))
-    nota_matematica = float(input(f"Informe a nota de Matemática do {i+1}° aluno:"))
-    nota_gerais = float(input(f"Informe a nota de Conhecimentos Gerais do {i+1}° aluno:"))
-#Processamento
+    nome = input(f"Informe o nome do {qtd_alunos}° aluno:")
+    nota_portugues = float(input(f"Informe a nota de Português do {qtd_alunos}° aluno:"))
+    nota_matematica = float(input(f"Informe a nota de Matemática do {qtd_alunos}° aluno:"))
+    nota_gerais = float(input(f"Informe a nota de Conhecimentos Gerais do {qtd_alunos}° aluno:"))
     media = (nota_portugues + nota_matematica + nota_gerais)/3
     if media >= 4 and nota_portugues > 2 and nota_matematica > 2 and nota_gerais > 2:
         alunos_aprovados.append(nome)
@@ -19,7 +19,7 @@ for i in range(qtd_alunos):
     soma_portugues = soma_portugues + nota_portugues
     if media > 4.5 and nota_gerais > 6:
         media_maior_4_5_cg_maior_6 = media_maior_4_5_cg_maior_6 + 1
-#Saída
+    tem_mais_alunos = input("Tem mais alunos?(Sim ou Não?):")
 print(f"Alunos aprovados:{alunos_aprovados}\n"
       + f"Média de Português:{soma_portugues/qtd_alunos:.2f}\n"
       + f"O número de candidatos que obtiveram média maior que 4.5 e nota na prova de Conhecimentos Geral maior que 6,0 é: {media_maior_4_5_cg_maior_6}\n"
