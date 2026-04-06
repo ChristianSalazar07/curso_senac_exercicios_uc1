@@ -1,9 +1,6 @@
-#Entrada
-valor01 = float(input("Diga o primeiro valor:"))
-valor02 = float(input("Diga o segundo valor:"))
-valor03 = float(input("Diga o terceiro valor:"))
-valor04 = float(input("Diga o quarto valor:"))
-#Processamento
-media_ponderada = ((valor01 * 1) + (valor02 * 2) + (valor03 * 3) + (valor04 * 4))/10
-#Saída
-print(f"A média ponderada é:{media_ponderada:.2f}")
+#Faça um algoritmo que o usuário informe os valores dos catetos de um
+#triângulo retângulo e que ao final escreva a sua hipotenusa
+cateto01 = float(input("Diga o valor do primeiro cateto:"))
+cateto02 = float(input("Diga o valor do segundo cateto:"))
+hipotenusa = ((cateto01**2) + (cateto02**2))**(1/2)
+print(f"O valor da hipotenusa é: {hipotenusa:.2f}")
