@@ -1,6 +1,6 @@
-# Faça um algoritmo que leia quatro números informados pelo usuário e
-#que depois imprima a média ponderada, sabendo-se que os pesos são
-#respectivamente: 1, 2, 3 e 4.
+''' Faça um algoritmo que leia quatro números informados pelo usuário e
+que depois imprima a média ponderada, sabendo-se que os pesos são
+respectivamente: 1, 2, 3 e 4. '''
 #Entrada
 valor01 = float(input("Diga o primeiro valor:"))
 valor02 = float(input("Diga o segundo valor:"))

@@ -8,7 +8,7 @@ while tem_mais_praias == "S" or tem_mais_praias == "s":
     nome = input(f"Informe o nome da {qtd_praias}ª praia:")
     distancia = float(input(f"Informe a distância da {qtd_praias}ª praia ao centro em km:"))
     veranistas = int(input(f"Informe a quantidade média de veranistas na {qtd_praias}ª praia:"))
-    acesso = bool(input(f"Informe o tipo de acesso à {qtd_praias}ª praia(0 - acesso não asfaltado; 1 - acesso asfaltado):"))
+    acesso = float(input(f"Informe o tipo de acesso à {qtd_praias}ª praia(0 - acesso não asfaltado; 1 - acesso asfaltado):"))
     if distancia > 15:
         praias_mais_15km = praias_mais_15km + 1
     if acesso == 0:

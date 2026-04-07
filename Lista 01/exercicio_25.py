@@ -1,6 +1,7 @@
-#Considerando uma eleição de apenas 02 candidatos, elabore um algoritmo que, a partir da leitura do número total de eleitores, do número de
-#votos do primeiro candidato e do número de votos do segundo candidato, apresente. Em seguida, o algoritmo deverá apresentar o percentual de votos de
-#cada um dos candidatos e o percentual de votos nulos
+'''Considerando uma eleição de apenas 02 candidatos, elabore um algoritmo que, a partir da leitura do
+número total de eleitores, do número de votos do primeiro candidato e do número de votos do segundo
+candidato, apresente. Em seguida, o algoritmo deverá apresentar o percentual de votos de cada um dos
+candidatos e o percentual de votos nulos'''
 votos_candidato_01 = int(input("Insira a quantidade de votos do candidato 01:"))
 votos_candidato_02 = int(input("Insira a quantidade de votos do candidato 02:"))
 votos_totais =  int(input("Insira a quantidade de votos total:"))
