@@ -37,4 +37,3 @@ print(f"Alunos aprovados:{alunos_aprovados}\n"
       + f"Média de Português:{soma_portugues/qtd_alunos:.2f}\n"
       + f"O número de candidatos que obtiveram média maior que 4.5 e nota na prova de Conhecimentos Geral maior que 6,0 é: {media_maior_4_5_cg_maior_6}\n"
       + f"O número de candidatos aprovados que obtiveram nota em Matemática acima de 5,0 é: {aprovados_matematica_maior_5}")
-print()
