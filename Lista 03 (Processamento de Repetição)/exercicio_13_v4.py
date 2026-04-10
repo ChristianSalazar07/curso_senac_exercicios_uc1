@@ -32,7 +32,7 @@ while tem_mais_alunos == "Sim" or tem_mais_alunos == "sim":
     soma_portugues = soma_portugues + meuAluno.notaPortugues
     if meuAluno.media > 4.5 and meuAluno.notaGerais > 6:
         media_maior_4_5_cg_maior_6 = media_maior_4_5_cg_maior_6 + 1
-    alunos.append(f"Nome: {meuAluno.nome} - Média: {meuAluno.media:.1f} - Aprovação: {meuAluno.aprovacao}")
+    alunos.append(str(meuAluno))
     tem_mais_alunos = input("Tem mais alunos?(Sim ou Não?):")
 for candidato in alunos:
     print(candidato)
