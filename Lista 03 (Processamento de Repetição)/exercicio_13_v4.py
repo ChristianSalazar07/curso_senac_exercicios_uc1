@@ -12,7 +12,7 @@ class aluno:
     def calcular_media(self):
         self.media = (self.notaPortugues + self.notaMatematica + self.notaGerais)/3
     def __str__(self):
-        return f"{self.nome}"
+        return f"Nome: {self.nome} - Média: {self.media:.1f} - Aprovação: {self.aprovacao}"
 soma_portugues = 0
 media_maior_4_5_cg_maior_6 = 0
 aprovados_matematica_maior_5 = 0
@@ -32,8 +32,10 @@ while tem_mais_alunos == "Sim" or tem_mais_alunos == "sim":
     soma_portugues = soma_portugues + meuAluno.notaPortugues
     if meuAluno.media > 4.5 and meuAluno.notaGerais > 6:
         media_maior_4_5_cg_maior_6 = media_maior_4_5_cg_maior_6 + 1
-    alunos.append(meuAluno)
+    alunos.append(f"Nome: {meuAluno.nome} - Média: {meuAluno.media:.1f} - Aprovação: {meuAluno.aprovacao}")
     tem_mais_alunos = input("Tem mais alunos?(Sim ou Não?):")
+for candidato in alunos:
+    print(candidato)
 print(f"Alunos aprovados:{alunos_aprovados}\n"
       + f"Média de Português:{soma_portugues/qtd_alunos:.2f}\n"
       + f"O número de candidatos que obtiveram média maior que 4.5 e nota na prova de Conhecimentos Geral maior que 6,0 é: {media_maior_4_5_cg_maior_6}\n"
