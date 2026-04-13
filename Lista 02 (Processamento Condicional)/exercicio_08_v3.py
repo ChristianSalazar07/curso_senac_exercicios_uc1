@@ -25,7 +25,7 @@ def calcularTotalVendas(corretores):
     vendasTotal = 0
     for corretor in corretores:
         vendasTotal = vendasTotal + corretor.venda
-    return(vendasTotal)
+    return vendasTotal
 def saida():
     for corretor in listaCorretores:
         print(corretor)
