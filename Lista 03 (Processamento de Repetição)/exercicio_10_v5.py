@@ -24,10 +24,10 @@ def processamentoDados(praias):
              "praiasAsfaltasMenos1kVeranistas": []}
     for praia in praias:
         if praia.distancia > 15:
-            dados["qtdPraiasMais15km"] = dados["qtdPraiasMais15km"] + 1
+            dados["qtdPraiasMais15km"] =+ 1
         if praia.acesso == 0:
             dados["veranistasNaoAsfaltado"] = dados["veranistasNaoAsfaltado"] + praia.veranistas
-            dados["qtdVeranistasNaoAsfaltado"] = dados["qtdVeranistasNaoAsfaltado"]
+            dados["qtdVeranistasNaoAsfaltado"] =+ 1
         if praia.veranistas < 1000 and praia.acesso == 1:
             dados["praiasAsfaltasMenos1kVeranistas"].append(f"Nome:{praia.nome} - Distância ao centro:{praia.distancia}km")
     return dados
