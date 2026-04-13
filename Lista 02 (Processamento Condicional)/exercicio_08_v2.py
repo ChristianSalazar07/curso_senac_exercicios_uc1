@@ -7,7 +7,7 @@ for i in range(qtd_corretores):
     nome = input(f"Informe o nome do {i+1}° corretor:")
     venda = float(input(f"Informe o valor das vendas do {i+1}° corretor em reais:"))
     if venda > 50000:
-         comissao01 = venda * 0.12
+         comissao = venda * 0.12
     elif venda >= 30000:
         comissao = venda * 0.095
     else:
